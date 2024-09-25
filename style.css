@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    left: 0;
+    margin: 0;
+    box-sizing: border-box
+    3;
+}
+
+p{
+    margin: 10px;
+
+}
+
+div > p{
+    background-color: blueviolet;
+}
+
+input{
+    border: 2px solid black;
+}
+
+input[type]{
+    border: 2px solid rgb(232, 194, 69);
+}
+
+input[type="text"]{
+    border: 2px solid rgb(205, 59, 98);
+    padding: 10px;
+}
+
+
+input[type="email"]{
+    border: 2px solid rgb(26, 119, 0);
+    padding: 20px;
+}
+ 
+[class~="container"]{
+    color: rgb(255, 0, 195);
+    font-size: large;
+    font-weight: bolder;
+}
+
+[Class~="hello" i]{
+    color: brown;
+    background-color: darkkhaki;
+}
+
+
+[class~="helloi" i]{
+    color: chartreuse;
+}
+
+[class~="helloii" i]{
+    color: rgb(255, 24, 143);
+    background-color: black;
+}
+
+[href*="github"]{
+    color: rgb(255, 255, 255);
+    background-color: rgb(210, 2, 2);
+    font-size: medium;
+     
+}
+
+
+
+
+
+
